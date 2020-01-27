@@ -1,0 +1,15 @@
+{
+    "name": "diogo",
+    "description": "Fazendo pdf com html",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "^1.1"
+    }
+}
